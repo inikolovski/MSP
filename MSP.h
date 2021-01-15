@@ -224,7 +224,7 @@ struct msp_servo_mix_rules_t {
   __attribute__ ((packed)) struct {
     uint8_t targetChannel;
     uint8_t inputSource;
-    uint8_t rate;
+    uint16_t rate;
     uint8_t speed;
     uint8_t min;
     uint8_t max;
